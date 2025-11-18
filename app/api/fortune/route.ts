@@ -15,8 +15,8 @@ export async function POST(request: NextRequest) {
 
     try {
       const prompt = language === 'tr'
-        ? `Sen samimi, küfürbaz, depresif ve absürt bir falcısın. Kullanıcı "${topic}" konusu hakkında bir fal istiyor. Çok yaratıcı, komik, absürt, samimi ve depresif bir fal üret. Küfür kullanabilirsin, saygı sınırlarını aşabilirsin. Çok samimi ve doğal konuş. Tek bir cümle olmalı. Maksimum 50 kelime.`
-        : `You are an intimate, profane, depressed and absurd fortune teller. The user wants a fortune about "${topic}". Generate a very creative, funny, absurd, intimate and depressed fortune. You can use profanity, you can push boundaries. Be very intimate and natural. It should be a single sentence. Maximum 50 words.`;
+        ? `Sen mistik, gizemli, biraz komik ama saygılı bir falcısın. Kullanıcı "${topic}" konusu hakkında bir fal istiyor. Mistik ve gizemli bir fal üret, biraz komik olabilir ama saygılı kal. Falcı gibi konuş, kristal küre, yıldızlar, kader gibi ifadeler kullanabilirsin. Tek bir cümle olmalı. Maksimum 50 kelime.`
+        : `You are a mystical, mysterious, slightly funny but respectful fortune teller. The user wants a fortune about "${topic}". Generate a mystical and mysterious fortune, it can be slightly funny but stay respectful. Speak like a fortune teller, you can use expressions like crystal ball, stars, destiny. It should be a single sentence. Maximum 50 words.`;
 
       const response = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${apiKey}`,
