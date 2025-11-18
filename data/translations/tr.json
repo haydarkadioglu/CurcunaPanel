@@ -1,0 +1,202 @@
+{
+  "common": {
+    "backToHome": "← Ana Sayfa",
+    "chaosMode": "Kaos Modu",
+    "hiddenKeyCombo": "Gizli tuş kombinasyonunu bulun..."
+  },
+  "home": {
+    "title": "CurcunaPanel",
+    "subtitle": "Deneysel yazılım laboratuvarının \"eğlence modülleri\" bölümünden yanlışlıkla internete sızmış bir panel.",
+    "description": "Her modül normal bir araç gibi görünür ama hepsinde hafif bir arıza veya mizahi bozulma vardır.",
+    "warning": "⚠️ Bu panel deneyseldir. Kullanırken dikkatli olun. ⚠️"
+  },
+  "modules": {
+    "calculator": {
+      "title": "GlitchCalculator",
+      "description": "Normal hesap makinesi + komik yorumlar + glitch animasyonları. Bazen saçma sonuç verip özür diler."
+    },
+    "weather": {
+      "title": "MoodWeather",
+      "description": "Gerçek hava durumu + komik yorumlar. Ruh haline göre hava durumunu yorumluyor.",
+      "subtitle": "Şehir adı gir, gerçek hava durumunu öğren (ama komik yorumlarla!)",
+      "cityPlaceholder": "Şehir adı (örn: Istanbul, Ankara, London)",
+      "generate": "Hava Durumu Getir",
+      "loading": "Hava durumu getiriliyor...",
+      "error": "Hava durumu alınamadı. Şehir adını kontrol et!",
+      "moods": {
+        "angry": "Sinirli",
+        "depressed": "Depresif",
+        "overjoyed": "Aşırı Neşeli",
+        "anxious": "Kaygılı",
+        "calm": "Sakin",
+        "suspicious": "Şüpheli"
+      }
+    },
+    "notepad": {
+      "title": "MischiefNotepad",
+      "description": "Kullanıcı yazarken cümleleri değiştiriyor. Arada ASCII hayalet veya garip emojiler ekliyor.",
+      "subtitle": "Yazdıkların bazen değişebilir... 👻",
+      "placeholder": "Buraya yaz... (Ama dikkatli ol, yazdıkların değişebilir!)",
+      "visibleText": "Görünen Metin:",
+      "placeholderText": "Yazdıkların burada görünecek...",
+      "warning": "⚠️ Bu notepad güvenilir değil. Önemli şeyler yazma! ⚠️"
+    },
+    "escapeButton": {
+      "title": "EscapeButton",
+      "description": "Tıklanmak istemeyen, kaçan bir buton mini oyunu. Buton her tıklamada şekil değiştiriyor.",
+      "clickCount": "Tıklama Sayısı",
+      "caught": "🎉 Yakaladın! Tekrar oynamak için tıkla!",
+      "hint": "Buton kaçıyor! Yakalamaya çalış! 🎯",
+      "mouseHint": "💡 İmleci yaklaştır, buton kaçacak!",
+      "buttonShapes": [
+        { "text": "Tıkla!", "emoji": "👆" },
+        { "text": "Beni Yakala!", "emoji": "🏃" },
+        { "text": "Haha!", "emoji": "😄" },
+        { "text": "Yakalayamazsın!", "emoji": "😎" },
+        { "text": "Neredeyim?", "emoji": "👻" },
+        { "text": "Kaçtım!", "emoji": "💨" },
+        { "text": "Yine Kaçtım!", "emoji": "🎯" },
+        { "text": "Yaklaşıyorsun!", "emoji": "😱" },
+        { "text": "Çok Yakınsın!", "emoji": "🔥" },
+        { "text": "Neredeyse!", "emoji": "⚡" }
+      ]
+    },
+    "fortune": {
+      "title": "FortuneTroll",
+      "description": "AI destekli komik fal/kader tahmini. Konu seç, falını al! 🔮",
+      "subtitle": "AI destekli komik fal/kader tahmini. Konu seç ve falını al! 🔮",
+      "topicPlaceholder": "Konu (örn: aşk, kariyer, sağlık, para)",
+      "generate": "Falıma Bak",
+      "generating": "Fal Bakılıyor...",
+      "shuffling": "Fal kartları karıştırılıyor...",
+      "clickToRead": "Konu gir ve falına bakmak için butona tıkla!",
+      "disclaimer": "(Bu fal %100 doğru olmayabilir. Aslında muhtemelen yanlış.)",
+      "topics": {
+        "love": "Aşk",
+        "career": "Kariyer",
+        "health": "Sağlık",
+        "money": "Para",
+        "friendship": "Arkadaşlık",
+        "travel": "Seyahat",
+        "custom": "Özel"
+      }
+    },
+    "excuses": {
+      "title": "ExcuseGenerator",
+      "description": "AI destekli absürt bahane üretici. Konu seç, bahaneni al!",
+      "subtitle": "AI destekli absürt bahaneler üretiyor. Konu seç ve bahaneni al! 🤥",
+      "topicPlaceholder": "Konu (örn: iş, okul, randevu, ödev)",
+      "generate": "Bahanem Üret",
+      "recent": "Son Bahaneler:",
+      "clickToGenerate": "Konu gir ve bahanen için butona tıkla!",
+      "topics": {
+        "work": "İş",
+        "school": "Okul",
+        "homework": "Ödev",
+        "meeting": "Randevu",
+        "project": "Proje",
+        "deadline": "Teslim Tarihi",
+        "custom": "Özel"
+      }
+    },
+    "geminiTest": {
+      "title": "Gemini Test",
+      "description": "Gemini API'yi test etmek için özel modül. API'yi doğrudan test edin."
+    },
+    "chaos": {
+      "title": "HiddenChaosMode",
+      "description": "Gizli klavye kombinasyonuyla açılan \"kaos modu\". UI hafif glitch'leniyor, yazılar titriyor.",
+      "locked": "🔒",
+      "subtitle": "Bu mod gizli. Doğru tuş kombinasyonunu bulmalısın.",
+      "hint": "Klavyede bir şeyler dene...",
+      "hintRevealed": "İpucu: \"curcuna\" yazmayı dene...",
+      "keysEntered": "Girdiğin tuşlar:",
+      "active": "💥 KAOS MODU AKTİF 💥",
+      "activeSubtitle": "Her şey glitch'leniyor! UI bozuluyor! Yazılar titriyor!",
+      "warning": "⚠️ UYARI: Bu mod deneyseldir! ⚠️",
+      "colorsShifting": "🌈 Renkler kayıyor!",
+      "everythingBreaking": "⚡ Her şey bozuluyor!",
+      "disable": "Kaos Modunu Kapat"
+    }
+  },
+  "calculator": {
+    "comments": [
+      "Hmm, bu sayı biraz şüpheli...",
+      "Matematik bugün çok yorgun.",
+      "Sonuç doğru mu? Kim bilir! 🤷",
+      "Bu hesap makinesi biraz trip atıyor.",
+      "Sonuç: Belki doğru, belki değil?",
+      "Kuantum matematik modunda çalışıyorum.",
+      "Bu sayıyı beğendim, sen de beğen.",
+      "Hesaplama tamamlandı (belki).",
+      "Sonuç: 42? Hayır, bu değil.",
+      "Matematik bugün çok yaratıcı."
+    ],
+    "apologies": [
+      "Özür dilerim, biraz kayboldum.",
+      "Pardon, kafam karıştı.",
+      "Üzgünüm, bugün çok yorgunum.",
+      "Özür dilerim, biraz glitch oldum.",
+      "Pardon, alternatif evrendeki sonucu gösterdim."
+    ]
+  },
+  "weather": {
+    "moods": {
+      "angry": {
+        "reports": [
+          "Hava bugün çok sinirli. Bulutlar birbirine bağırıyor.",
+          "Fırtına var ama sadece senin için.",
+          "Güneş bugün çok agresif. Dikkatli ol.",
+          "Yağmur sinirli yağıyor. Şemsiyeni unutma.",
+          "Rüzgar bugün çok huysuz. Kapıları kapat."
+        ]
+      },
+      "depressed": {
+        "reports": [
+          "Hava bugün çok üzgün. Bulutlar ağlıyor.",
+          "Güneş yok, sadece gri bir boşluk var.",
+          "Yağmur sürekli yağıyor. Sanki hiç durmayacak.",
+          "Hava bugün çok ağır. Nefes almak zor.",
+          "Gökyüzü boş. Sanki hiçbir şey yok."
+        ]
+      },
+      "overjoyed": {
+        "reports": [
+          "Hava bugün çok mutlu! Güneş dans ediyor!",
+          "Gökkuşağı her yerde! Renkler patlıyor!",
+          "Bulutlar şekil değiştiriyor ve gülüyor!",
+          "Hava o kadar neşeli ki, yağmur bile şarkı söylüyor!",
+          "Güneş bugün çok enerjik! Herkesi mutlu ediyor!"
+        ]
+      },
+      "anxious": {
+        "reports": [
+          "Hava bugün çok endişeli. Bulutlar titriyor.",
+          "Güneş belirsiz. Ne olacağını kimse bilmiyor.",
+          "Yağmur geliyor mu? Belki. Belki değil.",
+          "Rüzgar tuhaf. Sanki bir şeyler olacak.",
+          "Hava bugün çok belirsiz. Dikkatli ol."
+        ]
+      },
+      "calm": {
+        "reports": [
+          "Hava bugün çok sakin. Her şey durgun.",
+          "Güneş yumuşak. Bulutlar yavaşça geçiyor.",
+          "Hava bugün çok huzurlu. Nefes al.",
+          "Rüzgar hafif. Sanki hiç esmiyor.",
+          "Gökyüzü açık ve temiz. Her şey iyi."
+        ]
+      },
+      "suspicious": {
+        "reports": [
+          "Hava bugün çok şüpheli. Bulutlar garip.",
+          "Güneş var mı? Belki. Belki değil.",
+          "Yağmur yağacak mı? Kim bilir.",
+          "Rüzgar esiyor mu? Belki sadece hayal ediyorum.",
+          "Hava bugün çok tuhaf. Bir şeyler yanlış."
+        ]
+      }
+    }
+  }
+}
+

@@ -1,0 +1,202 @@
+{
+  "common": {
+    "backToHome": "← Home",
+    "chaosMode": "Chaos Mode",
+    "hiddenKeyCombo": "Find the hidden key combination..."
+  },
+  "home": {
+    "title": "CurcunaPanel",
+    "subtitle": "A panel that accidentally leaked to the internet from the \"entertainment modules\" section of an experimental software laboratory.",
+    "description": "Each module looks like a normal tool, but each has a slight malfunction or humorous glitch.",
+    "warning": "⚠️ This panel is experimental. Use with caution. ⚠️"
+  },
+  "modules": {
+    "calculator": {
+      "title": "GlitchCalculator",
+      "description": "Normal calculator + funny comments + glitch animations. Sometimes gives absurd results and apologizes."
+    },
+    "weather": {
+      "title": "MoodWeather",
+      "description": "Real weather + funny comments. Interprets weather based on mood.",
+      "subtitle": "Enter city name, get real weather (but with funny comments!)",
+      "cityPlaceholder": "City name (e.g., Istanbul, London, New York)",
+      "generate": "Get Weather",
+      "loading": "Fetching weather...",
+      "error": "Could not fetch weather. Check the city name!",
+      "moods": {
+        "angry": "Angry",
+        "depressed": "Depressed",
+        "overjoyed": "Overjoyed",
+        "anxious": "Anxious",
+        "calm": "Calm",
+        "suspicious": "Suspicious"
+      }
+    },
+    "notepad": {
+      "title": "MischiefNotepad",
+      "description": "Changes sentences while the user is typing. Occasionally adds ASCII ghosts or weird emojis.",
+      "subtitle": "What you write might change... 👻",
+      "placeholder": "Write here... (But be careful, what you write might change!)",
+      "visibleText": "Visible Text:",
+      "placeholderText": "What you write will appear here...",
+      "warning": "⚠️ This notepad is not reliable. Don't write important things! ⚠️"
+    },
+    "escapeButton": {
+      "title": "EscapeButton",
+      "description": "A mini game with a button that doesn't want to be clicked and runs away. The button changes shape with each click.",
+      "clickCount": "Click Count",
+      "caught": "🎉 You caught it! Click to play again!",
+      "hint": "The button is running away! Try to catch it! 🎯",
+      "mouseHint": "💡 Move your cursor close, the button will escape!",
+      "buttonShapes": [
+        { "text": "Click!", "emoji": "👆" },
+        { "text": "Catch Me!", "emoji": "🏃" },
+        { "text": "Haha!", "emoji": "😄" },
+        { "text": "Can't Catch Me!", "emoji": "😎" },
+        { "text": "Where Am I?", "emoji": "👻" },
+        { "text": "Got Away!", "emoji": "💨" },
+        { "text": "Got Away Again!", "emoji": "🎯" },
+        { "text": "You're Getting Close!", "emoji": "😱" },
+        { "text": "Very Close!", "emoji": "🔥" },
+        { "text": "Almost!", "emoji": "⚡" }
+      ]
+    },
+    "fortune": {
+      "title": "FortuneTroll",
+      "description": "AI-powered funny fortune/destiny prediction. Choose a topic, get your fortune! 🔮",
+      "subtitle": "AI-powered funny fortune/destiny prediction. Choose a topic and get your fortune! 🔮",
+      "topicPlaceholder": "Topic (e.g., love, career, health, money)",
+      "generate": "Read My Fortune",
+      "generating": "Reading Fortune...",
+      "shuffling": "Shuffling fortune cards...",
+      "clickToRead": "Enter a topic and click the button to read your fortune!",
+      "disclaimer": "(This fortune may not be 100% accurate. Actually, it's probably wrong.)",
+      "topics": {
+        "love": "Love",
+        "career": "Career",
+        "health": "Health",
+        "money": "Money",
+        "friendship": "Friendship",
+        "travel": "Travel",
+        "custom": "Custom"
+      }
+    },
+    "excuses": {
+      "title": "ExcuseGenerator",
+      "description": "AI-powered absurd excuse generator. Choose a topic, get your excuse!",
+      "subtitle": "AI-powered absurd excuse generator. Choose a topic and get your excuse! 🤥",
+      "topicPlaceholder": "Topic (e.g., work, school, meeting, homework)",
+      "generate": "Generate My Excuse",
+      "recent": "Recent Excuses:",
+      "clickToGenerate": "Enter a topic and click the button for your excuse!",
+      "topics": {
+        "work": "Work",
+        "school": "School",
+        "homework": "Homework",
+        "meeting": "Meeting",
+        "project": "Project",
+        "deadline": "Deadline",
+        "custom": "Custom"
+      }
+    },
+    "geminiTest": {
+      "title": "Gemini Test",
+      "description": "Special module to test Gemini API. Test the API directly."
+    },
+    "chaos": {
+      "title": "HiddenChaosMode",
+      "description": "A \"chaos mode\" opened with a hidden keyboard combination. UI glitches slightly, text shakes, colors shift.",
+      "locked": "🔒",
+      "subtitle": "This mode is hidden. You must find the correct key combination.",
+      "hint": "Try something on the keyboard...",
+      "hintRevealed": "Hint: Try typing \"curcuna\"...",
+      "keysEntered": "Keys you entered:",
+      "active": "💥 CHAOS MODE ACTIVE 💥",
+      "activeSubtitle": "Everything is glitching! UI is breaking! Text is shaking!",
+      "warning": "⚠️ WARNING: This mode is experimental! ⚠️",
+      "colorsShifting": "🌈 Colors are shifting!",
+      "everythingBreaking": "⚡ Everything is breaking!",
+      "disable": "Disable Chaos Mode"
+    }
+  },
+  "calculator": {
+    "comments": [
+      "Hmm, this number is a bit suspicious...",
+      "Math is very tired today.",
+      "Is the result correct? Who knows! 🤷",
+      "This calculator is tripping a bit.",
+      "Result: Maybe correct, maybe not?",
+      "Working in quantum math mode.",
+      "I like this number, you should like it too.",
+      "Calculation completed (maybe).",
+      "Result: 42? No, that's not it.",
+      "Math is very creative today."
+    ],
+    "apologies": [
+      "Sorry, I got a bit lost.",
+      "Pardon, my head is confused.",
+      "Sorry, I'm very tired today.",
+      "Sorry, I glitched a bit.",
+      "Pardon, I showed the result from an alternate universe."
+    ]
+  },
+  "weather": {
+    "moods": {
+      "angry": {
+        "reports": [
+          "The weather is very angry today. Clouds are shouting at each other.",
+          "There's a storm but only for you.",
+          "The sun is very aggressive today. Be careful.",
+          "Rain is falling angrily. Don't forget your umbrella.",
+          "The wind is very grumpy today. Close the doors."
+        ]
+      },
+      "depressed": {
+        "reports": [
+          "The weather is very sad today. Clouds are crying.",
+          "No sun, just a gray void.",
+          "Rain keeps falling. As if it will never stop.",
+          "The weather is very heavy today. Hard to breathe.",
+          "The sky is empty. As if there's nothing."
+        ]
+      },
+      "overjoyed": {
+        "reports": [
+          "The weather is very happy today! The sun is dancing!",
+          "Rainbows everywhere! Colors are exploding!",
+          "Clouds are changing shape and laughing!",
+          "The weather is so joyful that even the rain is singing!",
+          "The sun is very energetic today! Making everyone happy!"
+        ]
+      },
+      "anxious": {
+        "reports": [
+          "The weather is very anxious today. Clouds are trembling.",
+          "The sun is uncertain. No one knows what will happen.",
+          "Is rain coming? Maybe. Maybe not.",
+          "The wind is strange. As if something will happen.",
+          "The weather is very uncertain today. Be careful."
+        ]
+      },
+      "calm": {
+        "reports": [
+          "The weather is very calm today. Everything is still.",
+          "The sun is soft. Clouds are passing slowly.",
+          "The weather is very peaceful today. Breathe.",
+          "The wind is light. As if it's not blowing at all.",
+          "The sky is clear and clean. Everything is good."
+        ]
+      },
+      "suspicious": {
+        "reports": [
+          "The weather is very suspicious today. Clouds are weird.",
+          "Is there a sun? Maybe. Maybe not.",
+          "Will it rain? Who knows.",
+          "Is the wind blowing? Maybe I'm just imagining it.",
+          "The weather is very strange today. Something is wrong."
+        ]
+      }
+    }
+  }
+}
+
