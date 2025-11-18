@@ -99,9 +99,9 @@
         "custom": "Custom"
       }
     },
-    "geminiTest": {
-      "title": "Gemini Test",
-      "description": "Special module to test Gemini API. Test the API directly."
+    "liarBot": {
+      "title": "Liar Bot",
+      "description": "A bot that lies about everything. Ask your questions, get fake answers!"
     },
     "chaos": {
       "title": "HiddenChaosMode",

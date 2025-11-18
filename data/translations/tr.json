@@ -99,9 +99,9 @@
         "custom": "Özel"
       }
     },
-    "geminiTest": {
-      "title": "Gemini Test",
-      "description": "Gemini API'yi test etmek için özel modül. API'yi doğrudan test edin."
+    "liarBot": {
+      "title": "Yalancı Bot",
+      "description": "Her şeye yalan söyleyen bir bot. Sorularını sor, yalan cevaplar alsın!"
     },
     "chaos": {
       "title": "HiddenChaosMode",

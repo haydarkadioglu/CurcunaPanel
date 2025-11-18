@@ -53,10 +53,10 @@ export default function Home() {
       icon: '💥',
     },
     {
-      title: t.modules.geminiTest?.title || 'Gemini Test',
-      description: t.modules.geminiTest?.description || 'Test Gemini API',
-      href: '/modules/gemini-test',
-      icon: '🤖',
+      title: t.modules.liarBot?.title || 'Yalancı Bot',
+      description: t.modules.liarBot?.description || 'A bot that lies about everything',
+      href: '/modules/liar-bot',
+      icon: '🎭',
     },
   ];
 
