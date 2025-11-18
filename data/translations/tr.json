@@ -103,6 +103,20 @@
       "title": "Yalancı Bot",
       "description": "Her şeye yalan söyleyen bir bot. Sorularını sor, yalan cevaplar alsın!"
     },
+    "tweetGenerator": {
+      "title": "Tweet Üretici",
+      "description": "Şiir, edebiyat ve daha fazlası hakkında tweet üret!",
+      "topics": {
+        "poetry": "Şiir",
+        "literature": "Edebiyat",
+        "philosophy": "Felsefe",
+        "art": "Sanat",
+        "music": "Müzik",
+        "cinema": "Sinema",
+        "technology": "Teknoloji",
+        "custom": "Özel"
+      }
+    },
     "chaos": {
       "title": "HiddenChaosMode",
       "description": "Gizli klavye kombinasyonuyla açılan \"kaos modu\". UI hafif glitch'leniyor, yazılar titriyor.",

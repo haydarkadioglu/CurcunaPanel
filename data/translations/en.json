@@ -103,6 +103,20 @@
       "title": "Liar Bot",
       "description": "A bot that lies about everything. Ask your questions, get fake answers!"
     },
+    "tweetGenerator": {
+      "title": "Tweet Generator",
+      "description": "Generate tweets about poetry, literature and more!",
+      "topics": {
+        "poetry": "Poetry",
+        "literature": "Literature",
+        "philosophy": "Philosophy",
+        "art": "Art",
+        "music": "Music",
+        "cinema": "Cinema",
+        "technology": "Technology",
+        "custom": "Custom"
+      }
+    },
     "chaos": {
       "title": "HiddenChaosMode",
       "description": "A \"chaos mode\" opened with a hidden keyboard combination. UI glitches slightly, text shakes, colors shift.",

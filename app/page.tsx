@@ -58,6 +58,12 @@ export default function Home() {
       href: '/modules/liar-bot',
       icon: '🎭',
     },
+    {
+      title: t.modules.tweetGenerator?.title || 'Tweet Generator',
+      description: t.modules.tweetGenerator?.description || 'Generate tweets about poetry, literature and more',
+      href: '/modules/tweet-generator',
+      icon: '🐦',
+    },
   ];
 
   return (
